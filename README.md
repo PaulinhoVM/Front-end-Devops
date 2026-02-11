@@ -1,4 +1,7 @@
 # Front-end-Devops
 Repositorio relacionado as aulas de Front-end na Anchieta.
-##########################################################
-1
+
+# Git comandos
+- git clone: Clona repositórios remotos
+- git status: mostra o staus do repositório local
+- git add 
