@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+}
+
+H1{
+    color:rgb(155, 47, 47);
+    font-size: 50px;
+    text-align: center;
+}
+
+p{
+    color: darkgoldenrod;
+
+}
+
+.diferente{
+
+    color: blue;
+}
+
+.indiferente{
+    color: red;
+    font-size: 100px;
+}
+
+.container{
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item{
+    padding: 15px;
+    background-color: orange;
+}
+
