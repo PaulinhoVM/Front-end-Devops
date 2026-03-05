@@ -1,38 +1,49 @@
 body{
-    background-color: black;
+
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
 }
 
-H1{
-    color:rgb(155, 47, 47);
-    font-size: 50px;
-    text-align: center;
-}
-
-p{
-    color: darkgoldenrod;
-
-}
-
-.diferente{
-
-    color: blue;
-}
-
-.indiferente{
-    color: red;
-    font-size: 100px;
-}
-
-.container{
+header{
+    background-color: #333;
     color: white;
-    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+}
+
+nav{
+
+    background-color: #444;
+    justify-content: center;
+    padding: 10px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+
 }
 
-.item{
-    padding: 15px;
-    background-color: orange;
+nav a{
+
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+
 }
 
+main{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+
+}
+
+footer{
+    background-color: #333;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
