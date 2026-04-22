@@ -1,0 +1,11 @@
+name: primeiro-workflow # nome Tecnico
+run-name: Primeiro Workflow # nome simples
+
+on: [push]
+
+jobs: 
+    mac:
+        runs-on: macos-latest
+        steps: 
+            -  name: hello mac
+                 run: echo "Deu bom!" 
