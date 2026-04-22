@@ -7,5 +7,5 @@ jobs:
     mac:
         runs-on: macos-latest
         steps: 
-            -  name: hello mac
-                 run: echo "Deu bom!" 
+            - name: hello mac
+              run: echo "Deu bom!" 
